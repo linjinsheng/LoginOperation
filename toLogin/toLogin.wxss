@@ -1,0 +1,10 @@
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.body {
+    width: 65%;
+    margin-top: 30px;
+}

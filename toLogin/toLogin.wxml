@@ -1,0 +1,14 @@
+<block wx:if="{{openid.length<=0}}">
+
+<view class='logoBrand'>
+      <image src="../../image/brandImageTwo.png"></image>
+</view>
+
+<view class="slogan" >
+      <text>让搜索更有商业价值！</text>   
+</view>
+
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"  class="body" type="primary" style='background-color:#227CD7' >同意授权登录</button> 
+<view wx:else>请升级微信版本</view>
+</block>
+
